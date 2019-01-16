@@ -192,7 +192,7 @@ figcaption p {
   background: transparent;
 
 }
-.regiter-button
+#register-button
 {
   border-radius: 5px;
   font-size: 1.5em;
@@ -201,11 +201,22 @@ figcaption p {
   padding: 5px 5px 10px 5px;
   top:90vh;
   right:1em;
+  border: 2px solid black;
+}
 
-
+#confluenceLogo {
+  position: fixed;
+  float: left;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
 }
 
 @media screen and (min-width: 480px) {
 
   
+}
+
+#register-button > a {
+  color: black;
 }
